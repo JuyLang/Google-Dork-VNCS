@@ -13,8 +13,8 @@
 
 .Header {
     display: flex;
-    justify-content: space-around;
-    width: 1032px;
+    justify-content: space-between;
+    width: 1000px;
     margin: auto;
 }
 
@@ -32,7 +32,6 @@
     font-size: 22px;
     line-height: 100px;
     font-weight: 700;
-    
 }
 .Header-nav span{
     color: rgb(220, 7, 7);
@@ -65,11 +64,13 @@
 }
 
 #search {
-    width: 270px;
+    width: 300px;
     border: 1px solid black;
     padding: 16px 10px;
     border-radius: 10px;
     font-size: 18px;
+    text-align: center;
+    margin-right: 70px;
 }
 
 .cards {
@@ -106,9 +107,7 @@
     text-decoration: none;
     color: black;
 }
-.content{
-    text-align: center;
-}
+
 @media only screen and (max-width: 600px) {
     body {
         font-family: 'Poppins', sans-serif;
