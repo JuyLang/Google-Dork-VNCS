@@ -28,7 +28,18 @@
     width: 130px;
     /* margin: ; */
 }
-
+.Header-nav{
+    font-size: 22px;
+    line-height: 100px;
+    font-weight: 700;
+    
+}
+.Header-nav span{
+    color: rgb(220, 7, 7);
+    font-size: 24px;
+    line-height: 100px;
+    /* font-weight:; */
+}
 .fas {
     font-size: 50px;
     color: #4d4d4d;
@@ -54,12 +65,11 @@
 }
 
 #search {
-    width: 350px;
+    width: 270px;
     border: 1px solid black;
     padding: 16px 10px;
     border-radius: 10px;
     font-size: 18px;
-    margin-left: 132px;
 }
 
 .cards {
@@ -96,7 +106,9 @@
     text-decoration: none;
     color: black;
 }
-
+.content{
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
     body {
         font-family: 'Poppins', sans-serif;
