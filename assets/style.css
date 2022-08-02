@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+
+#root {
+    width: 1100px;
+    margin: auto;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-around;
+    width: 1032px;
+    margin: auto;
+}
+
+.Header-about {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+
+.Header img {
+    width: 130px;
+    /* margin: ; */
+}
+
+.fas {
+    font-size: 50px;
+    color: #4d4d4d;
+    margin-bottom: 15px;
+}
+
+.fab {
+    font-size: 50px;
+    color: #4d4d4d;
+    margin-bottom: 15px;
+}
+
+.Header-content {
+    font-size: 22px;
+    line-height: 100px;
+    font-weight: 600;
+}
+
+
+.Header-search {
+    line-height: 100px;
+
+}
+
+#search {
+    width: 350px;
+    border: 1px solid black;
+    padding: 16px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 132px;
+}
+
+.cards {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 1032px;
+}
+
+.subcard {
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 15px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.subcard img {
+    object-fit: contain;
+    width: 60px;
+}
+
+.subcard p {
+    font-size: 18px;
+}
+
+.cards :hover {
+    background-color: beige;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: rgb(0, 0, 0);
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    .head_button {
+        margin-left: 40px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .input {
+        display: none;
+    }
+
+    .cards {
+        display: none;
+    }
