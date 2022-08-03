@@ -14,7 +14,7 @@
 .Header {
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 1032px;
     margin: auto;
 }
 
@@ -31,13 +31,13 @@
 .Header-nav{
     font-size: 22px;
     line-height: 100px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .Header-nav span{
-    color: rgb(220, 7, 7);
+    color: rgb(180, 0, 0);
     font-size: 24px;
     line-height: 100px;
-    /* font-weight:; */
+    font-weight: 600;
 }
 .fas {
     font-size: 50px;
@@ -50,7 +50,11 @@
     color: #4d4d4d;
     margin-bottom: 15px;
 }
-
+.fa-solid{
+    font-size: 50px;
+    color: #4d4d4d;
+    margin-bottom: 15px;
+}
 .Header-content {
     font-size: 22px;
     line-height: 100px;
@@ -64,15 +68,16 @@
 }
 
 #search {
-    width: 300px;
+    width: 312px;
     border: 1px solid black;
     padding: 16px 10px;
-    border-radius: 10px;
-    font-size: 18px;
-    text-align: center;
-    margin-right: 70px;
+    border-radius: 18px;
+    font-size: 19px;
+    margin-left: 80px;
 }
-
+.content{
+    text-align: center;
+}
 .cards {
     display: flex;
     margin: auto;

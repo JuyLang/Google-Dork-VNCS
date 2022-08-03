@@ -16,7 +16,7 @@
     },
     "3":{
         "icon":"fas fa-file-excel",
-        "name":"Publicly exposed documents",
+        "name":"Publicly documents",
         "link":"https://www.google.com/search?q=site:domain ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv"
     },
     "4":{
@@ -105,8 +105,8 @@
         "link":"https://www.ssllabs.com/ssltest/analyze.html?d=domain"
     },
     "21":{
-        "icon":"fas fa-image-polaroid",
-        "name":"Search in Wayback Machine(Internet Archive)",
+        "icon":"fas fa-camera-home",
+        "name":"Search in Wayback Machine",
         "link":"https://web.archive.org/web/*/domain/*"
     },
     "22":{
