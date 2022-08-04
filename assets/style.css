@@ -14,7 +14,7 @@
 .Header {
     display: flex;
     justify-content: space-between;
-    width: 1032px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -32,6 +32,7 @@
     font-size: 22px;
     line-height: 100px;
     font-weight: 600;
+    margin-left: 30px;
 }
 .Header-nav span{
     color: rgb(180, 0, 0);
